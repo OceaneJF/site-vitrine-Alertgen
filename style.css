@@ -67,7 +67,8 @@ video {
     top: 0;
     z-index: 1;
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 
 }
 
@@ -85,21 +86,22 @@ video {
     border: #a7aaaa 1px solid;
     background: rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
-box-shadow: 5px 3px 50px 4px rgba(255,255,255,0.48);
+    box-shadow: 5px 3px 50px 4px rgba(255, 255, 255, 0.48);
+    
 }
 
-h1{
+h1 {
     font-size: 4rem;
     color: #F8F9FD;
-    text-shadow: 3px 2px 5px rgba(0,0,0,0.49);
+    text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.49);
 }
 
-.rectangle-hero p{
+.rectangle-hero p {
     text-align: center;
     color: #F8F9FD;
 }
 
-.rectangle-hero a{
+.rectangle-hero a {
     position: relative;
     color: white;
     text-decoration: none;
@@ -107,16 +109,16 @@ h1{
     padding: 12px 20px;
     border-radius: 5px;
     
+
 }
 
-.rectangle-hero a span
-{
+.rectangle-hero a span {
     position: relative;
 }
 
-.rectangle-hero a::before{
-    
-    
+.rectangle-hero a::before {
+
+
     content: "";
     position: absolute;
     inset: 1.5px;
@@ -125,6 +127,173 @@ h1{
     transition: 0.5s;
 }
 
-.rectangle-hero a:hover::before{
+.rectangle-hero a:hover::before {
     opacity: 0.5;
+}
+
+.context {
+    margin-top: -20px;
+    display: flex;
+    height: 350px;
+    background: radial-gradient(circle at 52% 40%, rgba(1, 4, 17, 1) 0%, rgba(1, 4, 17, 0.92) 95%, rgba(1, 4, 17, 0.87) 100%);
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.context img {
+    height: 290px;
+    width: 320px;
+    aspect-ratio: 1/1;
+}
+
+.context article {
+    color: #8CA2C0;
+    width: 50%;
+}
+
+.context article p {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.produit {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1250px;
+    background: radial-gradient(225.8% 90.43% at 82.79% 29.09%, #CEDBEF 0%, #FFF 52.78%, rgba(206, 219, 239, 0.85) 100%);
+    
+}
+
+.produit>div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: relative;
+    
+}
+
+.card1,.card2 {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(50px);
+    width: 30%;
+    height: 40%;
+    padding: 60px;
+    
+    word-break: break-all;
+    position: relative;
+
+}
+
+.card1{
+    margin-top: 2rem;
+    transition: 0.5s;
+}
+.card2{
+    margin-left: -6rem;
+    transition: 0.5s;
+}
+
+.mol{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+    top: -100px;
+    left: -50px;
+}
+.mol2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: 3;
+    bottom: -50px;
+    right: -25px;
+}
+
+.bracelet{
+    width: 40%;
+    object-fit: contain;
+    margin-top: -5rem;
+    transition: 0.5s;
+}
+
+.bracelet:hover{
+    transform: scale(1.1);
+}
+
+.pique{
+    width: 60%;
+    object-fit: contain;
+    margin-top:-16rem ;
+    margin-left: -10rem;
+    transition: 0.5s;
+}
+
+.pique:hover{
+    transform: scale(1.1);
+}
+
+.card{
+    margin-top: 5rem;
+    
+}
+
+.card1:hover,.card2:hover{
+    transform: scale(1.1);
+}
+.produit a{
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+    align-self: center;
+}
+
+.allergen{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    
+}
+
+.allergen>div{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.allergen div{
+    position: relative;
+}
+
+.allergen span{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 1.3rem;
+    transition: 0.5s;
+    transform: scale(0);
+    z-index: 3;
+}
+
+.allergen div div:hover span{
+    transform: scale(1);
+    top: 90%;
+}
+.allergen img{
+    width: 108px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+
+.allergen div div img:hover{
+    transform: scale(1.2);
 }
