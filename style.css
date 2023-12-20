@@ -167,7 +167,8 @@ h2 {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 1250px;
+    height: max-content;
+    padding-bottom: 20px;
     background: radial-gradient(225.8% 90.43% at 82.79% 29.09%, #CEDBEF 0%, #FFF 52.78%, rgba(206, 219, 239, 0.85) 100%);
     
 }
@@ -195,11 +196,11 @@ h2 {
 }
 
 .card1{
-    margin-top: 2rem;
+    margin-top: 32px;
     transition: 0.5s;
 }
 .card2{
-    margin-left: -6rem;
+    margin-left: -96px;
     transition: 0.5s;
 }
 
@@ -223,7 +224,7 @@ h2 {
 .bracelet{
     width: 40%;
     object-fit: contain;
-    margin-top: -5rem;
+    margin-top: -80px;
     transition: 0.5s;
 }
 
@@ -234,8 +235,8 @@ h2 {
 .pique{
     width: 60%;
     object-fit: contain;
-    margin-top:-16rem ;
-    margin-left: -10rem;
+    margin-top:-256px ;
+    margin-left: -160px;
     transition: 0.5s;
 }
 
@@ -244,7 +245,7 @@ h2 {
 }
 
 .card{
-    margin-top: 5rem;
+    margin-top: 80px;
     
 }
 
@@ -252,8 +253,8 @@ h2 {
     transform: scale(1.1);
 }
 .produit a{
-    margin-top: -3rem;
-    margin-bottom: 3rem;
+    margin-top: -48px;
+    margin-bottom: 48px;
     align-self: center;
 }
 
@@ -262,13 +263,13 @@ h2 {
     flex-direction: column;
     gap: 40px;
     align-items: center;
-    
+    margin-bottom: 50px;
 }
 
 .allergen>div{
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .allergen div{
     position: relative;
@@ -277,7 +278,7 @@ h2 {
 .allergen span{
     position: absolute;
     top: 30%;
-    left: 20%;
+    left: 7%;
     font-size: 1.3rem;
     transition: 0.5s;
     transform: scale(0);
@@ -287,6 +288,7 @@ h2 {
 .allergen div div:hover span{
     transform: scale(1);
     top: 90%;
+    
 }
 .allergen img{
     width: 108px;
@@ -296,4 +298,121 @@ h2 {
 
 .allergen div div img:hover{
     transform: scale(1.2);
+}
+
+.avis{
+    color: #8CA2C0;
+    display: flex;
+    max-height:fit-content;
+    padding: 50px;
+    padding-bottom: 150px;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background: radial-gradient(circle at 52% 40%, rgba(1, 4, 17, 1) 0%, rgba(1, 4, 17, 0.92) 95%, rgba(1, 4, 17, 0.87) 100%); ;
+}
+.avis div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    gap: 60px;
+}
+
+.avis div:first-child{
+    padding: 100px;
+}
+
+.avis img{
+    width: 300px;
+    height: 150px;
+    transition: 0.5s;
+}
+
+.avis img:hover{
+    transform: scale(1.1);
+}
+
+.avis img:nth-child(2){
+    z-index: 3;
+}
+
+.avis>img{
+    position: absolute;
+    right: 250px;
+    bottom: 150px;
+    z-index: 2;
+}
+
+.avis p{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.carte{
+    width: 100%;
+    height: 380px;
+    background-image: linear-gradient(to bottom, rgba(125, 151, 235, 0.39), rgba(64, 5, 131, 0.253)), url(carte.png);
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.carte div{
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(45px);
+    width: 50%;
+    max-height: fit-content;
+    padding: 60px;
+    word-break: break-all;
+    position: absolute;
+    top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carte a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer{
+    width: 100%;
+    max-height: fit-content;
+    background: linear-gradient(178deg, #010411 1.68%, rgba(1, 4, 17, 0.79) 98.61%);
+    color: white;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer div:first-child{
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px;
+}
+
+footer div:first-child>img{
+    width: 200px;
+    height: 80px;
+}
+
+footer div:last-child{
+    background-image: url(img_footer.svg) ;
+    max-height: fit-content;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+}
+
+footer div:last-child img{
+    width: 50px;
+    height: 50px;
 }
