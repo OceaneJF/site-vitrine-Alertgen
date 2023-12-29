@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    z-index: 2;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+}
+
+nav {
+
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    justify-self: flex-start;
+    align-items: center;
+    width: 200px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.menu-nav {
+    margin-right: 50px;
+    width: 35%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu-nav li {
+    text-decoration: none;
+    margin: 12px;
+
+}
+
+.menu-nav li a {
+    color: white;
+}
+
+.menu-nav li a:hover {
+    color: aqua;
+}
+
+body {
+    background: radial-gradient(rgba(1, 4, 17, 1) 0%, rgba(1, 4, 17, 0.92) 95%, rgba(1, 4, 17, 0.87) 100%) no-repeat;
+}
+
+main {
+    position: relative;
+}
+
+.molecule-violette {
+    position: absolute;
+    height: 228px;
+    width: 228px;
+    top: 300px;
+    left: 15%;
+}
+
+.a-propos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.a-propos img {
+    height: 100vh;
+    margin-top: -90px;
+
+}
+
+.a-propos div {
+    border-radius: 20px;
+    background: rgba(200, 176, 255, 0.11);
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(45px);
+    width: 25%;
+    max-height: fit-content;
+    padding: 60px;
+    word-break: break-all;
+    margin-left: 50px;
+    margin-top: -200px;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.valeurs img {
+    height: 128px;
+    width: 128px;
+    margin-top: 10px;
+}
+
+.valeurs {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.valeurs>div {
+    background-color: aliceblue;
+    border-radius: 4px;
+    width: 40%;
+    padding: 40px;
+    margin-bottom: -210px;
+    box-shadow: 0px 2px 7px 4px rgba(0, 0, 0, 0.22);
+}
+
+.valeurs>div h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.valeurs>div p {
+    margin-bottom: 20px;
+}
+
+.valeurs div div div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0px 2px 22px 4px rgba(0, 0, 0, 0.46);
+    gap: 1px;
+    padding: 10px;
+
+
+}
+
+.valeurs div div div:hover {
+    transform: scale(1.1);
+}
+
+.valeurs div div div p {
+    text-align: center;
+    margin: 5px;
+}
+
+.valeurs div div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 25px;
+
+}
+
+.equipe img {
+    height: 300px;
+    width: 250px;
+    border-radius: 3px;
+    transition: .5s;
+}
+
+.container {
+    display: flex;
+
+}
+
+.equipe {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background: radial-gradient(225.8% 90.43% at 82.79% 29.09%, #CEDBEF 0%, #FFF 52.78%, rgba(206, 219, 239, 0.85) 100%);
+}
+
+.card {
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: relative;
+}
+
+.intro {
+    height: 50px;
+    width: 250px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27, 27, 27, .5);
+    color: aliceblue;
+    bottom: 0;
+    transition: .5s;
+}
+
+.equipe h3 {
+    margin: 10px;
+
+}
+
+.equipe p {
+    margin: 10px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .intro {
+    height: 90px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.699);
+}
+
+.card:hover p {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img {
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.phrase {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.phrase p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.articles {
+    height: fit-content;
+    background: radial-gradient(225.8% 90.43% at 82.79% 29.09%, #CEDBEF 0%, #FFF 52.78%, rgba(206, 219, 239, 0.85) 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.articles div {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.articles img {
+    transition: 0.5s;
+}
+
+.articles img:hover {
+    transform: scale(1.05);
+}
+
+
+.btn {
+
+    color: #fff;
+    background-color: #938EFF;
+    padding: 10px 30px;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-radius: 4px;
+    transition: 255ms;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+}
+
+.btn:hover {
+
+    transition: 255ms;
+    padding: 10px 46px;
+    transform: translateY(-0px);
+    background-color: #ffffff;
+    color: #662eff;
+    border: solid 2px #5f57ff;
+}
+
+.partenaire img {
+    width: 300px;
+    height: 150px;
+}
+
+.partenaire {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+}
+
+.partenaire div {
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    max-height: fit-content;
+    background: linear-gradient(178deg, #010411 50.68%, rgba(1, 4, 17, 0.79) 98.61%);
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+
+}
+
+footer div:first-child {
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+footer div:first-child>div {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 20px;
+}
+
+footer div:first-child>img {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-self: flex-start;
+    align-self: center;
+}
+
+.bas_footer {
+    /*background-image: url(img_footer.svg) ;*/
+    background-color: rgba(1, 4, 17, 0.79);
+    height: 60px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.bas_footer img {
+    width: 50px;
+    height: 50px;
+
+}
+
+.bas_footer img:hover {
+    transform: scale(1.1);
+}
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer li {
+    padding: 3px;
+}
+
+.bas_footer>div {
+    display: flex;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.bas_footer>p {
+    margin-left: 20px;
+}

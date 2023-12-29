@@ -88,7 +88,7 @@ video {
     backdrop-filter: blur(5px);
     box-shadow: 5px 3px 50px 4px rgba(255, 255, 255, 0.48);
     margin-top: 60px;
-    
+
 }
 
 h1 {
@@ -109,7 +109,7 @@ h1 {
     background: linear-gradient(90deg, #757EDE -3.26%, #99BEFF 47.83%, #CEE7FB 100%);
     padding: 12px 20px;
     border-radius: 5px;
-    
+
 
 }
 
@@ -170,18 +170,19 @@ h2 {
     height: max-content;
     padding-bottom: 20px;
     background: radial-gradient(225.8% 90.43% at 82.79% 29.09%, #CEDBEF 0%, #FFF 52.78%, rgba(206, 219, 239, 0.85) 100%);
-    
+
 }
 
-.produit>div{
+.produit>div {
     display: flex;
     justify-content: space-around;
     width: 100%;
     position: relative;
-    
+
 }
 
-.card1,.card2 {
+.card1,
+.card2 {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.40);
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.15);
@@ -189,22 +190,23 @@ h2 {
     width: 30%;
     height: 40%;
     padding: 60px;
-    
+
     word-break: break-all;
     position: relative;
 
 }
 
-.card1{
+.card1 {
     margin-top: 32px;
     transition: 0.5s;
 }
-.card2{
+
+.card2 {
     margin-left: -96px;
     transition: 0.5s;
 }
 
-.mol{
+.mol {
     width: 200px;
     height: 200px;
     position: absolute;
@@ -212,7 +214,8 @@ h2 {
     top: -100px;
     left: -50px;
 }
-.mol2{
+
+.mol2 {
     width: 150px;
     height: 150px;
     position: absolute;
@@ -221,44 +224,46 @@ h2 {
     right: -25px;
 }
 
-.bracelet{
+.bracelet {
     width: 40%;
     object-fit: contain;
     margin-top: -80px;
     transition: 0.5s;
 }
 
-.bracelet:hover{
+.bracelet:hover {
     transform: scale(1.1);
 }
 
-.pique{
+.pique {
     width: 60%;
     object-fit: contain;
-    margin-top:-256px ;
+    margin-top: -256px;
     margin-left: -160px;
     transition: 0.5s;
 }
 
-.pique:hover{
+.pique:hover {
     transform: scale(1.1);
 }
 
-.card{
+.card {
     margin-top: 80px;
-    
+
 }
 
-.card1:hover,.card2:hover{
+.card1:hover,
+.card2:hover {
     transform: scale(1.1);
 }
-.produit a{
+
+.produit a {
     margin-top: -48px;
     margin-bottom: 48px;
     align-self: center;
 }
 
-.allergen{
+.allergen {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -266,17 +271,18 @@ h2 {
     margin-bottom: 50px;
 }
 
-.allergen>div{
+.allergen>div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
-.allergen div{
+
+.allergen div {
     position: relative;
 }
 
-.allergen span{
+.allergen span {
     position: absolute;
     top: 30%;
     left: 7%;
@@ -286,71 +292,74 @@ h2 {
     z-index: 3;
 }
 
-.allergen div div:hover span{
+.allergen div div:hover span {
     transform: scale(1);
     top: 90%;
-    
+
 }
-.allergen img{
+
+.allergen img {
     width: 108px;
     object-fit: contain;
     transition: 0.5s;
 }
 
-.allergen div div img:hover{
+.allergen div div img:hover {
     transform: scale(1.2);
 }
 
-.avis{
+.avis {
     color: #8CA2C0;
     display: flex;
-    max-height:fit-content;
+    max-height: fit-content;
     padding: 50px;
     padding-bottom: 150px;
     align-items: center;
     justify-content: space-around;
     position: relative;
-    background: radial-gradient(circle at 52% 40%, rgba(1, 4, 17, 1) 0%, rgba(1, 4, 17, 0.92) 95%, rgba(1, 4, 17, 0.87) 100%); ;
+    background: radial-gradient(circle at 52% 40%, rgba(1, 4, 17, 1) 0%, rgba(1, 4, 17, 0.92) 95%, rgba(1, 4, 17, 0.87) 100%);
+    ;
 }
-.avis div:nth-child(2){
+
+.avis div:nth-child(2) {
     display: flex;
     flex-direction: row;
     max-width: fit-content;
     gap: 60px;
 }
 
-.avis div:first-child{
+.avis div:first-child {
     padding: 100px;
 }
 
-.avis img{
+.avis img {
     width: 300px;
     height: 150px;
     transition: 0.5s;
 }
 
-.avis img:hover{
+.avis img:hover {
     transform: scale(1.1);
 }
 
-.avis img:nth-child(2){
+.avis img:nth-child(2) {
     z-index: 3;
 }
 
-.avis>img{
+.avis>img {
     position: absolute;
     right: 250px;
     bottom: 150px;
     z-index: 2;
 }
 
-.avis p{
+.avis p {
     text-align: justify;
     margin-top: 20px;
     font-size: 1rem;
 }
 
-.carte{
+.carte {
     width: 100%;
     height: 380px;
     background-image: linear-gradient(to bottom, rgba(125, 151, 235, 0.39), rgba(64, 5, 131, 0.253)), url(carte.png);
@@ -359,7 +368,7 @@ h2 {
     z-index: 0;
 }
 
-.carte div{
+.carte div {
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.40);
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.15);
@@ -370,37 +379,37 @@ h2 {
     word-break: break-all;
     position: absolute;
     top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.carte a{
+.carte a {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-footer{
+footer {
     width: 100%;
     max-height: fit-content;
     background: linear-gradient(178deg, #010411 50.68%, rgba(1, 4, 17, 0.79) 98.61%);
     color: white;
 }
 
-footer ul{
+footer ul {
     list-style-type: none;
-    
+
 }
 
-footer div:first-child{
+footer div:first-child {
     border-bottom: 1px solid gray;
     display: flex;
     justify-content: space-between;
     padding: 50px;
 }
 
-footer div:first-child>div{
+footer div:first-child>div {
     display: flex;
     width: 70%;
     justify-content: space-around;
@@ -408,49 +417,51 @@ footer div:first-child>div{
     gap: 20px;
 }
 
-footer div:first-child>img{
+footer div:first-child>img {
     width: 200px;
     height: 80px;
     display: flex;
     justify-self: flex-start;
     align-self: center;
 }
-.bas_footer{
+
+.bas_footer {
     /*background-image: url(img_footer.svg) ;*/
-    background-color:rgba(1, 4, 17, 0.79);
+    background-color: rgba(1, 4, 17, 0.79);
     height: 60px;
     background-size: cover;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
+
+
 }
 
-.bas_footer img{
+.bas_footer img {
     width: 50px;
     height: 50px;
-   
+
 }
 
-.bas_footer img:hover{
+.bas_footer img:hover {
     transform: scale(1.1);
 }
-footer h4{
+
+footer h4 {
     margin-bottom: 10px;
 }
 
-footer li{
+footer li {
     padding: 3px;
 }
-.bas_footer>div{
+
+.bas_footer>div {
     display: flex;
     margin-right: 20px;
     transition: 0.5s;
 }
 
-.bas_footer>p{
+.bas_footer>p {
     margin-left: 20px;
 }
-
