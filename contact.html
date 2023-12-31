@@ -9,55 +9,69 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="logo.png" alt="logo entreprise">
-            <ul class="menu-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
+    <header class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="logo_alertgen.png" alt="">
+            </a>
+        </div>
+        <div class="navigation">
+
+            <input type="checkbox" class="menu-tel">
+            <div class="hamburger"></div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="qui_sommes_nous.html">A propos</a></li>
+                <li><a href="detail_entreprise.html">Comment ça marche?</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
         <section class="info">
             <div>
-                <h3>Contactez nous</h3>
+                <h1>Contactez nous</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ex libero</p>
             </div>
             <div>
-                <img src="aller.png" alt="">
-                <p> tel : 052152351</p>
+                <img src="tel.png" alt="icone telephone">
+                <p> 0552374879</p>
             </div>
             <div>
-                <img src="aller.png" alt="">
-                <p> tel : 052152351</p>
+                <img src="arobase.svg" alt="icone @">
+                <p>contact@alertgen.fr</p>
             </div>
             <div>
-                <img src="aller.png" alt="">
-                <p> tel : 052152351</p>
+                <img src="point_gps.svg" alt="icone point gps">
+                <p>26 rue Andre Bouillar, 33000, Bordeaux</p>
             </div>
             <div>
-                <img src="aller.png" alt="">
-                <img src="aller.png" alt="">
-                <img src="aller.png" alt="">
-                <img src="aller.png" alt="">
+                <img src="twitter.svg" alt="twitter">
+                <img src="Facebook.svg" alt="facebook">
+                <img src="Instagram.svg" alt="Instagram">
+                <img src="LinkedIn.svg" alt="LinkedIn">
             </div>
         </section>
         <section class="formulaire">
-            <form action="">
+            <form>
                 <div>
-                    <label for="nom">Nom<input type="text" placeholder="Votre nom" name="nom" required></label>
-                    <label for="prenom">Prénom<input type="text" placeholder="Votre prenom" name="prenom"
-                            required></label>
+                    <label for="nom">
+                        Nom
+                        <span>*champ obligatoire</span>
+                        <input type="text" placeholder="Votre nom" id="nom" name="nom" required>
+                    </label>
+                    <label for="prenom">Prénom
+                        <span>*champ obligatoire</span>
+                        <input type="text" placeholder="Votre prenom" id="prenom" name="prenom" required></label>
                 </div>
-                <label for="email">Email<input type="email" placeholder="ojfrancois@u-bordeaux.fr" name="email"
-                        required></label>
-                <label for="msg">Message<textarea name="msg" cols="30" rows="10"
-                        placeholder="Votre message"></textarea></label>
-                <button type="submit"> Envoyez</button>
+                <label for="email">Email
+                    <span>*champ obligatoire</span>
+                    <input type="email" placeholder="ojfrancois@u-bordeaux.fr" id="email" name="email" required></label>
+                <label for="msg">Message
+                    <span>*champ obligatoire</span>
+                    <textarea name="msg" id="msg" cols="30" rows="10"
+                        placeholder="Votre message" required></textarea></label>
+                <button class="btn" type="submit"> Envoyer</button>
             </form>
         </section>
         <video autoplay loop muted>
@@ -66,50 +80,53 @@
     </main>
     <footer>
         <div>
-            <img src="logo.png" alt="">
+            <a href="">
+                <img src="logo_alertgen.png" alt="logo alertgen">
+            </a>
+
             <div>
-            <ul>
-                <li>
-                    <h4>hjdgfehng,gkerjz</h4>
-                </li>
-                <li>
-                    kjdfljgrbren gber
-                </li>
-                <li>
-                    hejgherjzjngrkengkj
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h4>hjdgfehng,gkerjz</h4>
-                </li>
-                <li>
-                    kjdfljgrbren gber
-                </li>
-                <li>
-                    hejgherjzjngrkengkj
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h4>hjdgfehng,gkerjz</h4>
-                </li>
-                <li>
-                    kjdfljgrbren gber
-                </li>
-                <li>
-                    hejgherjzjngrkengkj
-                </li>
-            </ul>
-        </div>
+                <ul>
+                    <li>
+                        <h4>Liens utiles</h4>
+                    </li>
+                    <li>
+                        <a href="qui_sommes_nous.html">Qui sommes nous?</a>
+                    </li>
+                    <li>
+                        <a href="detail_entreprise.html">Comment ça marche?</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Nous contacter</h4>
+                    </li>
+                    <li>
+                        tel : 0552374879
+                    </li>
+                    <li>
+                        email : contact@alertgen.fr
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>Adresse</h4>
+                    </li>
+                    <li>
+                        26 rue Andre Bouillar,
+                    </li>
+                    <li>
+                        33000, Bordeaux
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="bas_footer">
-            <p>mention legale</p>
+            <a href="mentions_legales.html">mentions legales</a>
             <div>
-                <img src="aller.png" alt="">
-                <img src="aller.png" alt="">
-                <img src="aller.png" alt="">
-                <img src="aller.png" alt="">
+                <a href="#"><img src="twitter.svg" alt="twitter"></a>
+                <a href="#"><img src="Facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="Instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="LinkedIn.svg" alt="LinkedIn"></a>
             </div>
         </div>
     </footer>
