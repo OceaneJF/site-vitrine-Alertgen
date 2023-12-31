@@ -9,17 +9,23 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <img src="logo.png" alt="logo entreprise">
-            <ul class="menu-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Home</a></li>
+    <header class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="logo_alertgen.png" alt="">
+            </a>
+        </div>
+        <div class="navigation">
+
+            <input type="checkbox" class="menu-tel">
+            <div class="hamburger"></div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="qui_sommes_nous.html">A propos</a></li>
+                <li><a href="detail_entreprise.html">Comment ça marche?</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <main>
         <section class="hero-section">
@@ -33,7 +39,7 @@
                     nulla, vero doloribus molestias fuga quam cumque quidem! Modi, earum tenetur. Reprehenderit
                     voluptatibus
                     quas expedita commodi.</p>
-                <a href="#"><span>Voir plus</span> </a>
+                <a class="btn" href="#produit">En savoir plus</a>
             </div>
         </section>
         <section class="context">
@@ -49,20 +55,24 @@
             </article>
             <img src="gif-graphique.gif" alt="gif graphique">
         </section>
-        <section class="produit">
+        <section id="produit" class="produit">
             <div class="card">
                 <div class="card1">
-
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae voluptatum atque eos reiciendis
                         dicta
                         mollitia quidem. Quo ullam, culpa natus deleniti tempora asperiores error dolorum enim
-                        necessitatibus eaque, perspiciatis voluptatem.</p>
+                        necessitatibus eaque, perspiciatis voluptatem. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Inventore aut non tempore saepe error sunt in quia aperiam nam eos, maiores
+                        perspiciatis voluptatum incidunt ab consequuntur deleniti, autem quae impedit. <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis vero exercitationem
+                        consequatur? Soluta molestias, reprehenderit quae suscipit esse labore nemo? Voluptatibus,
+                        deleniti inventore nulla sequi molestiae vel impedit placeat illum?</p>
                     <img class="mol" src="molecule.svg" alt="molécule">
                 </div>
                 <img class="bracelet" src="bracelet.png" alt="bracelet detecteur d'allergenes">
             </div>
-            <a href="#"> Voir plus</a>
+            <a class="btn-produit" href="#carte">M'en procurer</a>
             <div class="card">
                 <img class="pique" src="pique.png" alt="pique detecteur d'allergenes">
                 <div class="card2">
@@ -70,7 +80,12 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae voluptatum atque eos reiciendis
                         dicta
                         mollitia quidem. Quo ullam, culpa natus deleniti tempora asperiores error dolorum enim
-                        necessitatibus eaque, perspiciatis voluptatem.</p>
+                        necessitatibus eaque, perspiciatis voluptatem. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Inventore aut non tempore saepe error sunt in quia aperiam nam eos, maiores
+                        perspiciatis voluptatum incidunt ab consequuntur deleniti, autem quae impedit. <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis vero exercitationem
+                        consequatur? Soluta molestias, reprehenderit quae suscipit esse labore nemo? Voluptatibus,
+                        deleniti inventore nulla sequi molestiae vel impedit placeat illum?</p>
                     <img class="mol2" src="molecule-violette.svg" alt="molécule">
                 </div>
             </div>
@@ -78,80 +93,86 @@
                 <h2>Les 14 allergènes </h2>
                 <div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="peanuts.png" alt="cacahuetes">
+                        <span>Cacahuètes</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="gluten.png" alt="gluten">
+                        <span>Gluten</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="lait.png" alt="lait">
+                        <span>Lait</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="oeuf.png" alt="oeufs">
+                        <span>Oeufs</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="crabe.png" alt="crustacés">
+                        <span>Crustacés</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="soja.png" alt="soja">
+                        <span>Soja</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="mollusque.png" alt="mollusque">
+                        <span>Mollusques</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="celeri.png" alt="celeri">
+                        <span>Celeri</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="sesame.png" alt="sésame">
+                        <span>Sésame</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="poisson.png" alt="poisson">
+                        <span>Poisson</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="moutard.png" alt="moutarde">
+                        <span>Moutarde</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="sulfites.png" alt="sulfites">
+                        <span>Sulfites</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="nuts.png" alt="fruits à coques">
+                        <span>Fruits à coques</span>
                     </div>
                     <div>
-                        <img src="aller.png" alt="">
-                        <span>Exemple</span>
+                        <img src="lupin.png" alt="lupin">
+                        <span>Lupin</span>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="avis">
+        <section id="carte" class="avis">
             <div>
-                <h3>Les différents avis</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quas totam, fugiat vero
-                    perferendis aperiam sit consequuntur sequi atque deserunt id quisquam ullam expedita reprehenderit
-                    quia! Laborum odio in explicabo!</p>
+                <h2>Les différents avis</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, repellat! Labore necessitatibus,
+                    cupiditate, velit porro consequuntur pariatur quaerat vero odit recusandae sapiente dolore
+                    accusantium
+                    doloremque aperiam repudiandae doloribus rem facere.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque quas eum rem corporis maiores
+                    aspernatur dolorem, beatae animi dolore ad, soluta pariatur veniam ducimus debitis? Sequi, fugiat!
+                    Temporibus, debitis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, veritatis.
+                    Inventore iste delectus similique veniam modi. Praesentium officia, aliquam tenetur incidunt vel
+                    error quo modi exercitationem. Maiores quae aliquam in.</p>
             </div>
             <div>
-                <img src="avis.jpg" alt="avis client">
-                <img src="avis.jpg" alt="avis client">
+                <img src="avis.PNG" alt="avis client">
+                <img src="avis.PNG" alt="avis client">
             </div>
-            <img src="avis.jpg" alt="avis client">
+            <img src="avis.PNG" alt="avis client">
         </section>
-        <section class="carte">
+        <section  class="carte">
             <div>
-                <h3>Lorem blablabla</h3>
+                <h2>Lorem blablabla</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, repellat! Labore necessitatibus,
                     cupiditate, velit porro consequuntur pariatur quaerat vero odit recusandae sapiente dolore
                     accusantium
@@ -160,58 +181,61 @@
                     aspernatur dolorem, beatae animi dolore ad, soluta pariatur veniam ducimus debitis? Sequi, fugiat!
                     Temporibus, debitis!</p>
             </div>
-            <a href="Voir la pharmacie la plus proche"></a>
+            <a class="btn-carte" href="https://www.google.fr/maps/search/gradignan+pharmacie/@44.7681818,-0.6369063,14z/data=!3m1!4b1?entry=ttu" target="_blank">Voir la pharmacie la plus proche</a>
         </section>
-        </main>
-        <footer>
+    </main>
+    <footer>
+        <div>
+            <a href="">
+                <img src="logo_alertgen.png" alt="logo alertgen">
+            </a>
+            
             <div>
-                <img src="logo.png" alt="">
-                <div>
-                    <ul>
-                        <li>
-                            <h4>hjdgfehng,gkerjz</h4>
-                        </li>
-                        <li>
-                            kjdfljgrbren gber
-                        </li>
-                        <li>
-                            hejgherjzjngrkengkj
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <h4>hjdgfehng,gkerjz</h4>
-                        </li>
-                        <li>
-                            kjdfljgrbren gber
-                        </li>
-                        <li>
-                            hejgherjzjngrkengkj
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <h4>hjdgfehng,gkerjz</h4>
-                        </li>
-                        <li>
-                            kjdfljgrbren gber
-                        </li>
-                        <li>
-                            hejgherjzjngrkengkj
-                        </li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>
+                        <h4>hjdgfehng,gkerjz</h4>
+                    </li>
+                    <li>
+                        kjdfljgrbren gber
+                    </li>
+                    <li>
+                        hejgherjzjngrkengkj
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>hjdgfehng,gkerjz</h4>
+                    </li>
+                    <li>
+                        kjdfljgrbren gber
+                    </li>
+                    <li>
+                        hejgherjzjngrkengkj
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <h4>hjdgfehng,gkerjz</h4>
+                    </li>
+                    <li>
+                        kjdfljgrbren gber
+                    </li>
+                    <li>
+                        hejgherjzjngrkengkj
+                    </li>
+                </ul>
             </div>
-            <div class="bas_footer">
-                <p>mention legale</p>
-                <div>
-                    <img src="aller.png" alt="">
-                    <img src="aller.png" alt="">
-                    <img src="aller.png" alt="">
-                    <img src="aller.png" alt="">
-                </div>
+        </div>
+        <div class="bas_footer">
+            <a href="mentions_legales.html">mentions legales</a>
+            <div>
+                <a href="#"><img src="twitter.svg" alt="twitter"></a>
+                <a href="#"><img src="Facebook.svg" alt="facebook"></a>
+                <a href="#"><img src="Instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="LinkedIn.svg" alt="LinkedIn"></a>
             </div>
-        </footer>
+        </div>
+    </footer>
 </body>
 
 </html>
