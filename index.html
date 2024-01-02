@@ -1,241 +1,281 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Alertgen - Mangez en Toute Sécurité!</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Accueil</title>
-</head>
-
-<body>
+  <body>
     <header class="header">
-        <div class="logo">
-            <a href="#">
-                <img src="logo_alertgen.png" alt="">
-            </a>
-        </div>
-        <div class="navigation">
-
-            <input type="checkbox" class="menu-tel">
-            <div class="hamburger"></div>
-            <ul class="menu">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="qui_sommes_nous.html">A propos</a></li>
-                <li><a href="detail_entreprise.html">Comment ça marche?</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
+      <div class="logo">
+        <a href="#">
+          <img src="assets/img/logo_alertgen.png" alt="" />
+        </a>
+      </div>
+      <div class="navigation">
+        <input type="checkbox" class="menu-tel" />
+        <div class="hamburger"></div>
+        <ul class="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="qui_sommes_nous.html">A propos</a></li>
+          <li><a href="detail_entreprise.html">Comment ça marche?</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </header>
     <main>
-        <section class="hero-section">
-            <video autoplay loop muted>
-                <source src="video.mp4" typ e="video/mp4">
-            </video>
-            <div class="rectangle-hero">
-                <h1>Titre du site</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, saepe sunt. Ullam repudiandae
-                    voluptatibus
-                    nulla, vero doloribus molestias fuga quam cumque quidem! Modi, earum tenetur. Reprehenderit
-                    voluptatibus
-                    quas expedita commodi.</p>
-                <a class="btn" href="#produit">En savoir plus</a>
-            </div>
-        </section>
-        <section class="context">
-            <article>
-                <h2>Lorem blablabla</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, repellat! Labore necessitatibus,
-                    cupiditate, velit porro consequuntur pariatur quaerat vero odit recusandae sapiente dolore
-                    accusantium
-                    doloremque aperiam repudiandae doloribus rem facere.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque quas eum rem corporis maiores
-                    aspernatur dolorem, beatae animi dolore ad, soluta pariatur veniam ducimus debitis? Sequi, fugiat!
-                    Temporibus, debitis!</p>
-            </article>
-            <img src="gif-graphique.gif" alt="gif graphique">
-        </section>
-        <section id="produit" class="produit">
-            <div class="card">
-                <div class="card1">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae voluptatum atque eos reiciendis
-                        dicta
-                        mollitia quidem. Quo ullam, culpa natus deleniti tempora asperiores error dolorum enim
-                        necessitatibus eaque, perspiciatis voluptatem. Lorem ipsum dolor, sit amet consectetur
-                        adipisicing elit. Inventore aut non tempore saepe error sunt in quia aperiam nam eos, maiores
-                        perspiciatis voluptatum incidunt ab consequuntur deleniti, autem quae impedit. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis vero exercitationem
-                        consequatur? Soluta molestias, reprehenderit quae suscipit esse labore nemo? Voluptatibus,
-                        deleniti inventore nulla sequi molestiae vel impedit placeat illum?</p>
-                    <img class="mol" src="molecule.svg" alt="molécule">
-                </div>
-                <img class="bracelet" src="bracelet.png" alt="bracelet detecteur d'allergenes">
-            </div>
-            <a class="btn-produit" href="#carte">M'en procurer</a>
-            <div class="card">
-                <img class="pique" src="pique.png" alt="pique detecteur d'allergenes">
-                <div class="card2">
-                    <h3>Lorem ipsum</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae voluptatum atque eos reiciendis
-                        dicta
-                        mollitia quidem. Quo ullam, culpa natus deleniti tempora asperiores error dolorum enim
-                        necessitatibus eaque, perspiciatis voluptatem. Lorem ipsum dolor, sit amet consectetur
-                        adipisicing elit. Inventore aut non tempore saepe error sunt in quia aperiam nam eos, maiores
-                        perspiciatis voluptatum incidunt ab consequuntur deleniti, autem quae impedit. <br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis vero exercitationem
-                        consequatur? Soluta molestias, reprehenderit quae suscipit esse labore nemo? Voluptatibus,
-                        deleniti inventore nulla sequi molestiae vel impedit placeat illum?</p>
-                    <img class="mol2" src="molecule-violette.svg" alt="molécule">
-                </div>
-            </div>
-            <div class="allergen">
-                <h2>Les 14 allergènes </h2>
-                <div>
-                    <div>
-                        <img src="peanuts.png" alt="cacahuetes">
-                        <span>Cacahuètes</span>
-                    </div>
-                    <div>
-                        <img src="gluten.png" alt="gluten">
-                        <span>Gluten</span>
-                    </div>
-                    <div>
-                        <img src="lait.png" alt="lait">
-                        <span>Lait</span>
-                    </div>
-                    <div>
-                        <img src="oeuf.png" alt="oeufs">
-                        <span>Oeufs</span>
-                    </div>
-                    <div>
-                        <img src="crabe.png" alt="crustacés">
-                        <span>Crustacés</span>
-                    </div>
-                    <div>
-                        <img src="soja.png" alt="soja">
-                        <span>Soja</span>
-                    </div>
-                    <div>
-                        <img src="mollusque.png" alt="mollusque">
-                        <span>Mollusques</span>
-                    </div>
-                    <div>
-                        <img src="celeri.png" alt="celeri">
-                        <span>Celeri</span>
-                    </div>
-                    <div>
-                        <img src="sesame.png" alt="sésame">
-                        <span>Sésame</span>
-                    </div>
-                    <div>
-                        <img src="poisson.png" alt="poisson">
-                        <span>Poisson</span>
-                    </div>
-                    <div>
-                        <img src="moutard.png" alt="moutarde">
-                        <span>Moutarde</span>
-                    </div>
-                    <div>
-                        <img src="sulfites.png" alt="sulfites">
-                        <span>Sulfites</span>
-                    </div>
-                    <div>
-                        <img src="nuts.png" alt="fruits à coques">
-                        <span>Fruits à coques</span>
-                    </div>
-                    <div>
-                        <img src="lupin.png" alt="lupin">
-                        <span>Lupin</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="carte" class="avis">
+      <section class="hero-section">
+        <video autoplay loop muted>
+          <source src="assets/video/video.mp4" typ e="video/mp4" />
+        </video>
+        <div class="rectangle-hero">
+          <h1>Alertgen - La sécurité alimentaire à votre poignet</h1>
+          <p>
+            Découvrez une alimentation sans crainte avec notre bracelet approuvé
+            par les médecins. Détectant rapidement les allergènes, il garantit
+            des repas sécurisés et une sérénité absolue. Vivez sainement et en
+            toute sécurité !
+          </p>
+          <a class="btn" href="#produit">En savoir plus</a>
+        </div>
+      </section>
+      <section class="context">
+        <article>
+          <h2>Allergies alimentaires : un enjeu de santé mondial</h2>
+          <p>
+            Les allergies alimentaires, affectant des millions à travers le
+            monde, sont une cause majeure d'urgences médicales, parfois
+            mortelles. Annuellement, environ 250 000 décès sont attribués à ces
+            réactions, surtout dans des pays comme les États-Unis, le
+            Royaume-Uni et en Europe. Les fruits de mer, noix, lait, œufs et blé
+            figurent parmi les allergènes les plus dangereux.
+          </p>
+          <p>
+            Ces données mettent en évidence le besoin crucial de détecter
+            rapidement et efficacement les allergènes pour prévenir les risques
+            et sauver des vies.
+          </p>
+        </article>
+        <img src="assets/img/gif-graphique.gif" alt="gif graphique" />
+      </section>
+      <section id="produit" class="produit">
+        <div class="card">
+          <div class="card1">
+            <h3>Design élégant et fonctionnel</h3>
+            <p>
+              Notre bracelet combine praticité et élégance, faisant de lui un
+              choix idéal pour tous ceux qui recherchent à la fois sécurité et
+              style. Son design raffiné s'adapte harmonieusement à toute tenue,
+              le rendant parfait pour un usage quotidien. En plus de sa
+              fonctionnalité de détection d'allergènes, il séduit par son
+              esthétique moderne et discret. <br />
+              <br />
+              Que vous soyez au bureau, en sortie ou même en train de faire du
+              sport, il reste un compagnon élégant qui veille sur votre santé.
+              Sa polyvalence et son allure tendance en font un accessoire
+              indispensable pour toute personne soucieuse de son bien-être et de
+              son apparence.
+            </p>
+            <img class="mol" src="assets/img/molecule.svg" alt="molécule" />
+          </div>
+          <img
+            class="bracelet"
+            src="assets/img/bracelet.png"
+            alt="bracelet detecteur d'allergenes"
+          />
+        </div>
+        <a class="btn-produit" href="#carte">Ou le trouvrer ?</a>
+        <div class="card">
+          <img
+            class="pique"
+            src="assets/img/pique.png"
+            alt="pique detecteur d'allergenes"
+          />
+          <div class="card2">
+            <h3>Alertes instantanées & fiables</h3>
+            <p>
+              Restez informé en temps réel avec notre technologie de pointe.
+              Notre bracelet innovant vous alerte instantanément dès qu'il
+              détecte la présence d'allergènes dans vos aliments, vous offrant
+              ainsi la possibilité de prendre des décisions alimentaires
+              éclairées et sûres.
+              <br />
+              <br />
+              Grâce à une détection précise et rapide, il vous aide à éviter les
+              allergènes dangereux, réduisant ainsi significativement les
+              risques de réactions allergiques. Idéal pour ceux qui veulent
+              manger en toute tranquillité, ce bracelet est un outil
+              indispensable pour une vie plus saine et sans soucis.
+            </p>
+            <img
+              class="mol2"
+              src="assets/img/molecule-violette.svg"
+              alt="molécule"
+            />
+          </div>
+        </div>
+        <div class="allergen">
+          <h2>Les allergènes détectés</h2>
+          <div>
             <div>
-                <h2>Les différents avis</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, repellat! Labore necessitatibus,
-                    cupiditate, velit porro consequuntur pariatur quaerat vero odit recusandae sapiente dolore
-                    accusantium
-                    doloremque aperiam repudiandae doloribus rem facere.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque quas eum rem corporis maiores
-                    aspernatur dolorem, beatae animi dolore ad, soluta pariatur veniam ducimus debitis? Sequi, fugiat!
-                    Temporibus, debitis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, veritatis.
-                    Inventore iste delectus similique veniam modi. Praesentium officia, aliquam tenetur incidunt vel
-                    error quo modi exercitationem. Maiores quae aliquam in.</p>
+              <img src="assets/img/peanuts.png" alt="cacahuetes" />
+              <span>Cacahuètes</span>
             </div>
             <div>
-                <img src="avis.PNG" alt="avis client">
-                <img src="avis.PNG" alt="avis client">
+              <img src="assets/img/gluten.png" alt="gluten" />
+              <span>Gluten</span>
             </div>
-            <img src="avis.PNG" alt="avis client">
-        </section>
-        <section  class="carte">
             <div>
-                <h2>Lorem blablabla</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, repellat! Labore necessitatibus,
-                    cupiditate, velit porro consequuntur pariatur quaerat vero odit recusandae sapiente dolore
-                    accusantium
-                    doloremque aperiam repudiandae doloribus rem facere.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, eaque quas eum rem corporis maiores
-                    aspernatur dolorem, beatae animi dolore ad, soluta pariatur veniam ducimus debitis? Sequi, fugiat!
-                    Temporibus, debitis!</p>
+              <img src="assets/img/lait.png" alt="lait" />
+              <span>Lait</span>
             </div>
-            <a class="btn-carte" href="https://www.google.fr/maps/search/gradignan+pharmacie/@44.7681818,-0.6369063,14z/data=!3m1!4b1?entry=ttu" target="_blank">Voir la pharmacie la plus proche</a>
-        </section>
+            <div>
+              <img src="assets/img/oeuf.png" alt="oeufs" />
+              <span>Oeufs</span>
+            </div>
+            <div>
+              <img src="assets/img/crabe.png" alt="crustacés" />
+              <span>Crustacés</span>
+            </div>
+            <div>
+              <img src="assets/img/soja.png" alt="soja" />
+              <span>Soja</span>
+            </div>
+            <div>
+              <img src="assets/img/mollusque.png" alt="mollusque" />
+              <span>Mollusques</span>
+            </div>
+            <div>
+              <img src="assets/img/celeri.png" alt="celeri" />
+              <span>Celeri</span>
+            </div>
+            <div>
+              <img src="assets/img/sesame.png" alt="sésame" />
+              <span>Sésame</span>
+            </div>
+            <div>
+              <img src="assets/img/poisson.png" alt="poisson" />
+              <span>Poisson</span>
+            </div>
+            <div>
+              <img src="assets/img/moutard.png" alt="moutarde" />
+              <span>Moutarde</span>
+            </div>
+            <div>
+              <img src="assets/img/sulfites.png" alt="sulfites" />
+              <span>Sulfites</span>
+            </div>
+            <div>
+              <img src="assets/img/nuts.png" alt="fruits à coques" />
+              <span>Fruits à coques</span>
+            </div>
+            <div>
+              <img src="assets/img/lupin.png" alt="lupin" />
+              <span>Lupin</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="carte" class="avis">
+        <div>
+          <h2>Les différents avis</h2>
+          <p>
+            Nos clients parlent pour nous avec enthousiasme et gratitude !
+            Parcourez leurs témoignages sincères pour découvrir comment notre
+            bracelet révolutionnaire a transformé leur quotidien.
+          </p>
+          <p>
+            Ils partagent leurs expériences sur la façon dont cet outil innovant
+            a simplifié leur vie, en diminuant significativement l'anxiété liée
+            aux allergies alimentaires. Grâce à notre bracelet, ils ont retrouvé
+            la confiance de manger en toute sécurité, que ce soit au restaurant,
+            en voyage, ou même à la maison. Nos clients apprécient
+            particulièrement la tranquillité d'esprit apportée par la capacité
+            du bracelet à détecter une vaste gamme d'allergènes courants, les
+            aidant à éviter les réactions indésirables et à vivre une vie plus
+            épanouie et sereine.
+          </p>
+        </div>
+        <div>
+          <img src="assets/img/avis.PNG" alt="avis client" />
+          <img src="assets/img/avis.PNG" alt="avis client" />
+        </div>
+        <img src="assets/img/avis.PNG" alt="avis client" />
+      </section>
+      <section class="carte">
+        <div>
+          <h2>Où nous trouver</h2>
+          <p>
+            Venez nous rencontrer en pharmacie à Bordeaux ! Notre bracelet
+            révolutionnaire est désormais accessible dans une sélection
+            rigoureusement choisie de pharmacies locales. Là, vous trouverez des
+            experts dédiés, toujours prêts à vous fournir des conseils
+            personnalisés et à vous guider dans votre choix, assurant ainsi que
+            vous repartiez avec le produit le plus adapté à vos besoins.
+          </p>
+          <br />
+          <p>
+            En plus de découvrir notre bracelet, vous aurez l'occasion
+            d'explorer d'autres solutions de santé et de bien-être. N'attendez
+            plus pour trouver le point de vente le plus proche de chez vous et
+            faites le premier pas vers une vie plus saine et sereine. Rejoignez
+            notre communauté grandissante et participez à la révolution
+            alimentaire saine !
+          </p>
+        </div>
+        <a
+          class="btn-carte"
+          href="https://www.google.fr/maps/search/gradignan+pharmacie/@44.7681818,-0.6369063,14z/data=!3m1!4b1?entry=ttu"
+          target="_blank"
+          >Voir la pharmacie la plus proche</a
+        >
+      </section>
     </main>
     <footer>
-        <div>
-            <a href="">
-                <img src="logo_alertgen.png" alt="logo alertgen">
-            </a>
-            
-            <div>
-                <ul>
-                    <li>
-                        <h4>Liens utiles</h4>
-                    </li>
-                    <li>
-                        <a href="qui_sommes_nous.html">Qui sommes nous?</a>
-                    </li>
-                    <li>
-                        <a href="detail_entreprise.html">Comment ça marche?</a>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h4>Nous contacter</h4>
-                    </li>
-                    <li>
-                        tel : 0552374879
-                    </li>
-                    <li>
-                        email : contact@alertgen.fr
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                        <h4>Adresse</h4>
-                    </li>
-                    <li>
-                        26 rue Andre Bouillar, 
-                    </li>
-                    <li>
-                        33000, Bordeaux
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="bas_footer">
-            <a href="mentions_legales.html">mentions legales</a>
-            <div>
-                <a href="#"><img src="twitter.svg" alt="twitter"></a>
-                <a href="#"><img src="Facebook.svg" alt="facebook"></a>
-                <a href="#"><img src="Instagram.svg" alt="Instagram"></a>
-                <a href="#"><img src="LinkedIn.svg" alt="LinkedIn"></a>
-            </div>
-        </div>
-    </footer>
-</body>
+      <div>
+        <a href="">
+          <img src="assets/img/logo_alertgen.png" alt="logo alertgen" />
+        </a>
 
+        <div>
+          <ul>
+            <li>
+              <h4>Liens utiles</h4>
+            </li>
+            <li>
+              <a href="qui_sommes_nous.html">Qui sommes nous?</a>
+            </li>
+            <li>
+              <a href="detail_entreprise.html">Comment ça marche?</a>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h4>Nous contacter</h4>
+            </li>
+            <li>tel : 0552374879</li>
+            <li>email : contact@alertgen.fr</li>
+          </ul>
+          <ul>
+            <li>
+              <h4>Adresse</h4>
+            </li>
+            <li>26 rue Andre Bouillar,</li>
+            <li>33000, Bordeaux</li>
+          </ul>
+        </div>
+      </div>
+      <div class="bas_footer">
+        <a href="mentions_legales.html">mentions legales</a>
+        <div>
+          <a href="#"><img src="assets/img/twitter.svg" alt="twitter" /></a>
+          <a href="#"><img src="assets/img/Facebook.svg" alt="facebook" /></a>
+          <a href="#"><img src="assets/img/Instagram.svg" alt="Instagram" /></a>
+          <a href="#"><img src="assets/img/LinkedIn.svg" alt="LinkedIn" /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

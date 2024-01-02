@@ -200,9 +200,9 @@ video {
     position: relative;
     z-index: 2;
     display: flex;
-    width: 600px;
-    height: 150px;
-    padding: 30px 70px 90px 70px;
+    width: 50%;
+    height: fit-content;
+    padding: 30px 70px 50px 70px;
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
@@ -222,13 +222,13 @@ h1 {
 }
 
 .rectangle-hero p {
+    margin-top: 20px;
     text-align: justify;
     color: aliceblue;
-    font-size: 1.05rem;
+    font-size: 1.5rem;
 }
 
 .btn {
-
     color: #fff;
     background-color: rgba(1, 4, 17, 0.1);
     border: aliceblue solid 2px;
@@ -239,7 +239,8 @@ h1 {
     transition: 255ms;
     text-align: center;
     cursor: pointer;
-
+    margin-top: 40px;
+    font-size: 1.5rem;
 }
 
 
@@ -281,7 +282,7 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
 
 h3 {
@@ -663,7 +664,7 @@ footer li a {
 /* Version mobile */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         color: aliceblue;
         text-shadow: 3px 2px 5px rgba(0, 0, 0, 0.49);
         margin-bottom: 10px;
@@ -683,9 +684,9 @@ footer li a {
         position: relative;
         z-index: 2;
         display: flex;
-        width: 65%;
-        height: 300px;
-        padding: 30px 40px 20px 40px;
+        width: 80%;
+        height: fit-content;
+        padding: 30px 20px 20px 20px;
         flex-direction: column;
         align-items: center;
         flex-shrink: 0;
@@ -701,7 +702,7 @@ footer li a {
         text-align: left;
         margin-top: 20px;
         color: aliceblue;
-        font-size: 0.95rem;
+        font-size: 1rem;
     }
 
     .btn {
@@ -717,6 +718,7 @@ footer li a {
         transition: 255ms;
         text-align: center;
         cursor: pointer;
+        font-size: 1rem;
     }
 
     .btn:hover {
