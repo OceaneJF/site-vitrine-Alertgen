@@ -273,9 +273,16 @@ h1 {
     margin-right: 5rem;
     padding-left: 5rem;
     padding-right: 5rem;
+    padding-top: 20px;
     position: relative;
     z-index: 1;
 
+}
+
+.formulaire h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    margin-bottom: -30px; 
 }
 
 .info div:first-child {

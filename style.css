@@ -269,12 +269,12 @@ h1 {
     aspect-ratio: 1/1;
 }
 
-.context article {
+.context div {
     color: #8CA2C0;
     width: 50%;
 }
 
-.context article p {
+.context div p {
     text-align: justify;
     margin-top: 20px;
     font-size: 1.05rem;
@@ -748,12 +748,12 @@ footer li a {
         aspect-ratio: 1/1;
     }
 
-    .context article {
+    .context div {
         color: #8CA2C0;
         width: 80%;
     }
 
-    .context article p {
+    .context div p {
         text-align: justify;
         margin-top: 20px;
         font-size: 1.05rem;

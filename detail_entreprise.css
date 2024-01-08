@@ -328,7 +328,7 @@ h2{
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(15px);
     border-radius: 10px;
-    scale: 0;
+    transform: scale(0);
     opacity: 0;
     display: flex;
     justify-content: center;
@@ -343,7 +343,7 @@ h2{
 }
 
 .container .box:hover .glass{
-    scale: 1;
+    transform: scale(1);
     opacity: 1;
     transform: rotate(15deg);
 }
@@ -591,7 +591,7 @@ footer li a {
         box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
         backdrop-filter: blur(15px);
         border-radius: 10px;
-        scale: 0;
+        transform: scale(0);
         opacity: 0;
         display: flex;
         justify-content: center;
@@ -606,7 +606,7 @@ footer li a {
     }
     
     .container .box:hover .glass{
-        scale: 1;
+        transform: scale(1);
         opacity: 1;
         transform: rotate(15deg);
     }
