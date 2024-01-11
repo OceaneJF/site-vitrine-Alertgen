@@ -209,7 +209,8 @@ h2{
 .fonctionnement{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: fit-content;
+    padding-bottom: 50px;
     background: radial-gradient(225.8% 90.43% at 82.79% 29.09%, #CEDBEF 0%, #FFF 52.78%, rgba(206, 219, 239, 0.85) 100%);
 }
 
@@ -244,7 +245,7 @@ h2{
     box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(50px);
     width: 30%;
-    height: 40%;
+    height: fit-content;
     padding: 60px;
     transition: .5s;
     
